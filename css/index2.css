@@ -1,0 +1,96 @@
+
+.cr-dept-icon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    font-family: 'Arvo', serif;
+}
+
+.cr-dept-icon-grid div {
+    padding: 25px;
+}
+
+.cr-dept-icon-grid div img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cr-dept-icon-grid div h2 {
+    text-align: center;
+    font-size: .8em;
+}
+
+.cr-dept-icon-grid a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .tire-roll:hover {
+    transform: scale(1.05);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.clothing:hover {
+    content: url('../images/color-2/Clothing.png');
+}
+
+.footwear:hover {
+    content: url('../images/color-2/footwear.png');
+}
+
+.toys:hover {
+    content: url('../images/color-2/toys\ and\ games.png');
+}
+
+.home-garden:hover {
+    content: url('../images/color-2/lawn\ &\ Garden.png');
+}
+
+.tools:hover {
+    content: url('../images/color-2/tools\ &\ hardwear.png');
+}
+
+.heating-cooling:hover {
+    content: url('../images/color-2/heating\ &\ cooling.png');
+}
+
+.outdoor:hover {
+    content: url('../images/color-2/camping\ &\ hunting.png');
+}
+
+.equine:hover {
+    content: url('../images/color-2/equine.png');
+}
+
+.pet:hover {
+    content: url('../images/color-2/pet.png');
+}
+
+.farm-ranch:hover {
+    content: url('../images/color-2/Farm\ &\ Ranch.png');
+}
+
+.automotive:hover {
+    content: url('../images/color-2/Automotive.png');
+}
+
+.deals:hover {
+    content: url('../images/color-2/deals.png');
+}
+
+.zoom {
+    transition: transform .5s;
+} */
+
+
+@media only screen and (max-width: 768px) {
+    .cr-dept-icon-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cr-dept-icon-grid div {
+        padding: 10px;
+        }
+}
